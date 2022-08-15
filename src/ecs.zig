@@ -14,3 +14,4 @@ pub const OwningGroup = @import("ecs/groups.zig").OwningGroup;
 // signals
 pub const Signal = @import("signals/signal.zig").Signal;
 pub const Dispatcher = @import("signals/dispatcher.zig").Dispatcher;
+pub const Sink = @import("signals/sink.zig").Sink;
